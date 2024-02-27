@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_registry",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "initialImplementation",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registry",
+				"outputs": [
+					{
+						"internalType": "contract Registry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_registry",
+						"type": "address"
+					}
+				],
+				"name": "updateRegistry",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Proxy.sol": "Proxy"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Proxy.sol": {
+			"keccak256": "0x3828bfba2dee18f5fa178d3484f5f565f4897cf033bf04c7a7864a4728f7cab8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee4d3d58d172f33471802de43e4c251f15daca07d7d2488525c419ef70ed86af",
+				"dweb:/ipfs/QmekUj4J1YxXRQh9uvFzDonnJMAhx17fkRh33SubV69abS"
+			]
+		},
+		"contracts/Registry.sol": {
+			"keccak256": "0xf29dc1760b6ec172114edaea6697efb74932ab3824b36ecc1df7be9606d69977",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca531e761e5ec567613ae978b8283d0c7216d0fc893e3f508c50ab05142f9411",
+				"dweb:/ipfs/QmRntDHB16pbP7uJQq3bmx4uLjBQXregwffBFEp8gXxgkk"
+			]
+		}
+	},
+	"version": 1
+}

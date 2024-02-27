@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_testUInt",
+						"type": "uint256"
+					}
+				],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "testMapping",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Anton Grigorev (@BaldyAsh)",
+			"kind": "dev",
+			"methods": {
+				"initialize(uint256)": {
+					"params": {
+						"_testUInt": "Test uint"
+					}
+				}
+			},
+			"title": "Test 1 Proxy Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"initialize(uint256)": {
+					"notice": "Initialize test contract"
+				},
+				"testAddress()": {
+					"notice": "Test public address"
+				},
+				"testMapping(uint256)": {
+					"notice": "Test public mapping"
+				},
+				"testUInt()": {
+					"notice": "Test public uint"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestContract1.sol": "TestContract1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestContract1.sol": {
+			"keccak256": "0xee2ffdca740d078d59a8fadec35d19c175d212cd6fa3ed1750d5de8a503cf9d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c557ca544161d7ccc72ab126b80d938ddd2e4e846f58f025d9ec8e422f7248d",
+				"dweb:/ipfs/QmWwMpLsvkSW8mETa7EefeSqtvgrM9KFYYDiz2ET7bsjkT"
+			]
+		}
+	},
+	"version": 1
+}

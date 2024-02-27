@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_testUInt",
+						"type": "uint256"
+					}
+				],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "testMapping",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUInt16",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Anton Grigorev (@BaldyAsh)",
+			"kind": "dev",
+			"methods": {
+				"initialize(uint256)": {
+					"params": {
+						"_testUInt": "Test uint"
+					}
+				}
+			},
+			"title": "Test 2 Proxy Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"initialize(uint256)": {
+					"notice": "Initialize test contract"
+				},
+				"testAddress()": {
+					"notice": "Test public address"
+				},
+				"testMapping(uint256)": {
+					"notice": "Test public mapping"
+				},
+				"testUInt()": {
+					"notice": "Test public uint"
+				},
+				"testUInt16()": {
+					"notice": "Test public uint16"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestContract2.sol": "TestContract2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestContract2.sol": {
+			"keccak256": "0x54d09c43bdffa522805f7986f3f43e668806d3af9d6aeceda787a41a49ea5e14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5858ea65eef87902797f156c3b90c36f88da352b44102b68a3e09b1bd639d9a1",
+				"dweb:/ipfs/QmWkDURMrwde91zU5NF3vNPUpS6QJjGLapePq4NgAtyAVo"
+			]
+		}
+	},
+	"version": 1
+}
